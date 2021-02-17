@@ -36,17 +36,24 @@ ul{
 a{
     text-decoration: none;
 }
+
 .link-list li a{
     font-size: 18px;
     color: rgb(50 73 91);
 }
+
 .standard-text{
     color: rgb(50 73 91);
+    line-height: 30px;
+}
+
+.text-small{
+    font-size: 12px;
 }
 
 .btn-orange{
     color: white;
-    background-color: rgb(254 119 90);
+    background-color: #ff7a59;
     padding: 20px 30px;
     border-radius: 5px;
 }
@@ -64,7 +71,7 @@ a{
 
 /* HEADER  */
 
-/* nav top  */
+/* nav top e bottom */
 .nav-top{
     background-color: rgb(244 249 253);
     border-bottom: 1px solid black;
@@ -91,7 +98,7 @@ a{
     color: rgb(0 164 189);
 }
 
-.login-btn{
+.link-list li .login-btn{
     color: rgb(254 119 90);
     background-color: white;
     border: 1px solid rgb(254 119 90);
@@ -101,6 +108,7 @@ a{
 
 .link-list li .btn-orange{
     padding: 11px 10px;
+    color: white;
 }
 
 
@@ -108,3 +116,45 @@ a{
     width: 100px;
     padding: 30px 0;
 }
+
+/* fine nav  */
+
+/* jumbotron  */
+
+.jumbotron{
+    height: 600px;
+    background-color: rgb(255 245 238);
+    background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
+    background-position: 128% 13%;
+}
+
+.banner-text{
+    width: 50%;
+    padding-top: 90px;
+}
+
+.banner-text h2{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.banner-text p{
+    padding: 30px 0;
+}
+
+
+.banner-text .text-small{
+    display: block;
+    padding: 30px 0;
+}
+
+.green-bar{
+    background-color: rgb(173 235 227);
+    height: 100px;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+}
+
+/* fine jumbotron  */
