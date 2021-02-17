@@ -36,12 +36,12 @@ ul{
 a{
     text-decoration: none;
 }
-.nav-link li a{
+.link-list li a{
     font-size: 18px;
-    color: rgb(37, 37, 37);
+    color: rgb(50 73 91);
 }
 .standard-text{
-    color: rgb(37, 37, 37);
+    color: rgb(50 73 91);
 }
 
 .btn-orange{
@@ -69,14 +69,14 @@ a{
     background-color: rgb(244 249 253);
     border-bottom: 1px solid black;
 }
-.nav-link li{
+
+.link-list li{
     display: inline-block;
     vertical-align: middle;
     padding: 40px 20px 40px 0;
 }
-.btn-list li{
-    display: inline-block;
-    vertical-align: middle;
+
+.shift-right .link-list li{
     padding: 40px 0 40px 20px;
 }
 
@@ -87,6 +87,10 @@ a{
     vertical-align: middle;
 }
 
+.fa-search{
+    color: rgb(0 164 189);
+}
+
 .login-btn{
     color: rgb(254 119 90);
     background-color: white;
@@ -95,8 +99,12 @@ a{
     padding: 10px 10px;
 }
 
-.btn-list li .btn-orange{
+.link-list li .btn-orange{
     padding: 11px 10px;
 }
 
-/* fine nav top  */
+
+.logo{
+    width: 100px;
+    padding: 30px 0;
+}
