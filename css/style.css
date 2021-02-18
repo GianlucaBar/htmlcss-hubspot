@@ -23,9 +23,11 @@ body{
     width: 45%;
     margin: auto;
 }
-/* img{
-    width: 100%;
-} */
+
+.container-65{
+    width: 65%;
+    margin: auto;
+}
 
 .clearfix::after{
     content: "";
@@ -226,7 +228,8 @@ a{
 .features{
     background-color: white;
     border-radius: 5px;
-    padding: 50px ;
+    padding: 50px;
+    box-shadow: 0px 1px 13px 1px rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon{
@@ -327,12 +330,12 @@ a{
 }
 
 /* bordi griglia  */
-.four-col .col:nth-child(2){
+.grid .col:nth-child(2){
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
 
-.four-col .col:nth-child(3){
+.grid .col:nth-child(3){
     border-right: 1px solid white;
 }
 
@@ -343,5 +346,118 @@ a{
 /* fine griglia  */
 /* fine sezione achievements  */
 
+/* sezione customers */
+.customers {
+    padding: 60px;
+}
+.customers-data{
+    padding: 50px;
+}
+
+#customers-number{
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.partners{
+    padding: 40px;
+}
+
+.partners img{
+    width: 20%;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+/* fine customers  */
+
+/* sezione call to action  */
+.cta h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.cta p{
+    padding: 30px 0;
+}
+
+.cta img{
+    width: 40%;
+}
+
+.cta .col:last-child{
+    text-align: right;
+}
+/* fine call to action */
 
 /* fine MAIN  */
+
+/* FOOTER  */
+.link-array{
+    padding: 40px 0;
+}
+footer{
+    background-color: #32495b;
+    color: white;
+}
+.footer-links h4{
+    padding-bottom: 20px;
+}
+.footer-links ul{
+    font-weight: 300;
+}
+
+.footer-links ul li{
+    padding: 10px 0;
+}
+
+footer a{
+    color: white;
+}
+.support{
+    padding: 30px 0;
+}
+
+#support-btn{
+    color: #32495b;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.languages ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.languages ul li a{
+    color: white;
+    font-weight: 300;
+    
+}
+
+.footer-break{
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-bottom{
+    padding: 30px 0;
+}
+
+.legal{
+    text-align: right;
+}
+
+.legal li{
+    display: inline-block;
+    padding: 0 10px;
+}
+/* fine FOOTER  */
