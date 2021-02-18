@@ -60,6 +60,10 @@ a{
 .centered-text{
     text-align: center;
 }
+
+.standard-top-margin{
+    margin-top: 20px;
+}
 /* fine stili testo  */
 
 
@@ -89,6 +93,13 @@ a{
     width: 70%;
 }
 
+.three-col .col{
+    width: 30%;
+}
+
+.three-col .col:nth-child(2){
+    margin: 0 5%;
+}
 
 /* fine colonne flottate  */
 
@@ -207,14 +218,16 @@ a{
 }
 
 /* fine slogan  */
-.one-half-col{
+
+/* sezione features  */
+.features{
     background-color: white;
     border-radius: 5px;
     padding: 50px ;
 }
 
 .feature-icon{
-    width: 150px;
+    height: 150px;
 }
 
 .icon-container{
@@ -222,5 +235,30 @@ a{
     padding-bottom: 30px;
 }
 
+.checklist i{
+    color: #ff7a59;
+}
 
+.one-half-col li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.three-col{
+    margin-top: 60px;
+}
+
+.three-col .checklist{
+    text-align: left;
+    padding: 0 0 40px 20px;
+    line-height: 20px;
+
+}
+
+.h-divider{
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #33475b;
+    margin: 40px 0;
+}
 /* fine MAIN  */
