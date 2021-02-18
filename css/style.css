@@ -43,6 +43,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .link-list li a{
     font-size: 18px;
     color: rgb(50 73 91);
@@ -72,14 +76,27 @@ a{
 .btn-orange{
     color: white;
     background-color: #ff7a59;
-    padding: 20px 30px;
+    padding: 20px 45px;
     border-radius: 5px;
     display: inline-block
+}
+
+.btn-orange:hover{
+    background-color: #fdab97;
+    text-decoration: none;
 }
 
 /* colonne flottate */
 .two-col .col{
     width: 50%;
+}
+
+.nav-bottom .col:first-child{
+    width: 40%;
+}
+
+.nav-bottom .col:last-child{
+    width: 60%;
 }
 
 .shift-right{
@@ -112,19 +129,29 @@ a{
 /* HEADER  */
 
 /* nav top e bottom */
-.nav-top{
+.bg-fix{
     background-color: rgb(244 249 253);
     border-bottom: 1px solid black;
+    position: fixed;
+    width: 100vw;
+}
+
+.nav-top{
+    padding: 10px 0;
+}
+
+.nav-bottom{
+    padding: 85px 0 20px 0;
 }
 
 .link-list li{
     display: inline-block;
     vertical-align: middle;
-    padding: 40px 20px 40px 0;
+    padding: 10px 20px 0 0;
 }
 
 .shift-right .link-list li{
-    padding: 40px 0 40px 20px;
+    padding: 0 0 0 20px;
 }
 
 .v-divider{
@@ -138,12 +165,17 @@ a{
     color: rgb(0 164 189);
 }
 
-.link-list li .login-btn{
+.link-list .login-btn{
     color: rgb(254 119 90);
     background-color: white;
     border: 1px solid rgb(254 119 90);
     border-radius: 5px;
     padding: 10px 10px;
+}
+
+.login-btn:hover{
+    background-color: rgb(235, 233, 233);
+    text-decoration: none;
 }
 
 .link-list li .btn-orange{
@@ -154,7 +186,7 @@ a{
 
 .logo{
     width: 100px;
-    padding: 35px 0;
+    /* padding: 35px 0; */
 }
 
 /* fine nav  */
@@ -278,12 +310,14 @@ a{
 .bg-gradient{
     background: linear-gradient(124deg, rgba(0,174,180,1) 54%, rgba(1,188,167,1) 97%);
 }
+
 .achievement-text{
     color: white;
     line-height: 30px;
     width: 70%;
     margin: auto;
 }
+
 .achievement-text h2{
     font-size: 40px;
     line-height: 50px;
@@ -298,6 +332,7 @@ a{
 .grid{
     padding: 40px 0;
 }
+
 .ach-data{
     font-size: 60px;
     font-weight: 700;
@@ -342,6 +377,7 @@ a{
 .first-row .col{
     border-bottom: 1px solid white;
 }
+
 /* fine bordi griglia  */
 /* fine griglia  */
 /* fine sezione achievements  */
@@ -350,6 +386,7 @@ a{
 .customers {
     padding: 60px;
 }
+
 .customers-data{
     padding: 50px;
 }
@@ -373,6 +410,10 @@ a{
 /* fine customers  */
 
 /* sezione call to action  */
+.cta{
+    padding-bottom: 40px;
+}
+
 .cta h3{
     font-size: 30px;
     line-height: 40px;
@@ -386,9 +427,9 @@ a{
     width: 40%;
 }
 
-.cta .col:last-child{
+ .cta .col:last-child{
     text-align: right;
-}
+} 
 /* fine call to action */
 
 /* fine MAIN  */
@@ -397,13 +438,16 @@ a{
 .link-array{
     padding: 40px 0;
 }
+
 footer{
     background-color: #32495b;
-    color: white;
+    color: #cbd6e2;
 }
+
 .footer-links h4{
     padding-bottom: 20px;
 }
+
 .footer-links ul{
     font-weight: 300;
 }
@@ -413,23 +457,33 @@ footer{
 }
 
 footer a{
-    color: white;
+    color: #cbd6e2;
 }
+
 .support{
-    padding: 30px 0;
-}
+    margin: 10px 0;
+} 
 
 #support-btn{
     color: #32495b;
-    background-color: white;
+    background-color: #cbd6e2;
     border-radius: 5px;
     padding: 10px;
     margin: 20px 0;
 }
 
+#support-btn:hover{
+    text-decoration: none;
+    background-color: white;
+}
+
 .social-links li{
     display: inline-block;
     margin-right: 20px;
+}
+
+.social-links a:hover{
+    color: white;
 }
 
 .languages ul li{
@@ -438,16 +492,17 @@ footer a{
 }
 
 .languages ul li a{
-    color: white;
+    color: #cbd6e2;
     font-weight: 300;
     
 }
 
 .footer-break{
-    color: white;
+    color: #cbd6e2;
     margin-top: 20px;
 }
 
+/* footer bottom   */
 .footer-bottom{
     padding: 30px 0;
 }
@@ -460,4 +515,5 @@ footer a{
     display: inline-block;
     padding: 0 10px;
 }
+/* fine footer bottom  */
 /* fine FOOTER  */
