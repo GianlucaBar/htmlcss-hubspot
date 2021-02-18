@@ -101,6 +101,9 @@ a{
     margin: 0 5%;
 }
 
+.four-col .col{
+    width: 25%;
+}
 /* fine colonne flottate  */
 
 
@@ -244,8 +247,13 @@ a{
     padding-right: 20px;
 }
 
+.one-half-col .h-divider{
+    width: 50%;
+    margin-left: 0;
+}
+
 .three-col{
-    margin-top: 60px;
+    padding: 60px 0;
 }
 
 .three-col .checklist{
@@ -257,8 +265,83 @@ a{
 
 .h-divider{
     width: 90%;
-    margin: auto;
     border-bottom: 1px solid #33475b;
-    margin: 40px 0;
+    margin: 40px auto;
 }
+
+/* fine features  */
+
+/* sezione achievements  */
+.bg-gradient{
+    background: linear-gradient(124deg, rgba(0,174,180,1) 54%, rgba(1,188,167,1) 97%);
+}
+.achievement-text{
+    color: white;
+    line-height: 30px;
+    width: 70%;
+    margin: auto;
+}
+.achievement-text h2{
+    font-size: 40px;
+    line-height: 50px;
+    padding: 50px 0 20px 0;
+}
+
+.achievement-text p{
+    font-weight: 500;
+}
+
+/* griglia  */
+.grid{
+    padding: 40px 0;
+}
+.ach-data{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px 0;
+    display: block;
+}
+
+.ach-data::after{
+    content: "+";
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.grid{
+    color: white;
+}
+
+.grid-icon{
+    height: 35px;
+}
+
+.grid-entry{
+    padding: 30px 0;
+}
+
+
+.grid-text{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* bordi griglia  */
+.four-col .col:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.four-col .col:nth-child(3){
+    border-right: 1px solid white;
+}
+
+.first-row .col{
+    border-bottom: 1px solid white;
+}
+/* fine bordi griglia  */
+/* fine griglia  */
+/* fine sezione achievements  */
+
+
 /* fine MAIN  */
